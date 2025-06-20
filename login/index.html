@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CROWN DEVIL</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<h2 class="jamlo">CROWN DEVIL</h2>
+
+<button id="openModal">Login</button>
+
+<div id="id01" class="modal">
+  <form class="modal-content animate" id="loginForm">
+    <div class="imgcontainer">
+      <span class="close" title="Close Modal">&times;</span>
+      <img src="/picture&logo/logo.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" id="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" id="psw" required>
+
+      <button type="submit">Login</button>
+      <label><input type="checkbox" name="remember" checked> Remember me</label>
+    </div>
+
+    <div class="container light-bg">
+      <button type="button" class="cancelbtn" id="cancelBtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
